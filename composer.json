@@ -40,7 +40,8 @@
 	"predis/predis": "1.1.1",
 	"humanmade/s3-uploads": "2.0.0-beta3",
 	"wpackagist-plugin/debug-bar": "0.9",
-        "wpackagist-plugin/printful-shipping-for-woocommerce": "2.0.2"
+        "wpackagist-plugin/printful-shipping-for-woocommerce": "2.0.2",
+    "wpackagist-plugin/woocommerce": "^3.3"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -56,12 +57,13 @@
 		"wpackagist-plugin/wordfence",
 		"wpackagist-plugin/nginx-helper",
 		"wpackagist-plugin/sendgrid-email-delivery-simplified",
-		"humanmade/s3-uploads"
+		"humanmade/s3-uploads",
+"wpackagist-plugin/printful-shipping-for-woocommerce",
+		"wpackagist-plugin/woocommerce"
 	  ],
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/all-in-one-seo-pack",
-		"wpackagist-plugin/debug-bar",
-                 "wpackagist-plugin/printful-shipping-for-woocommerce"
+		"wpackagist-plugin/debug-bar"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme"
