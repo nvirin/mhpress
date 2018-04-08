@@ -1,4 +1,5 @@
 <?php
+echo 'coucou';die;
 
 /** WordPress view bootstrapper */
 define('WP_USE_THEMES', true);
