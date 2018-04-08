@@ -40,8 +40,9 @@
 	"predis/predis": "1.1.1",
 	"humanmade/s3-uploads": "2.0.0-beta3",
 	"wpackagist-plugin/debug-bar": "0.9",
-        "wpackagist-plugin/printful-shipping-for-woocommerce": "2.0.2",
-    "wpackagist-plugin/woocommerce": "^3.3"
+"wpackagist-plugin/woocommerce": "3.3.4",
+        "wpackagist-plugin/printful-shipping-for-woocommerce": "2.0.2"
+
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
