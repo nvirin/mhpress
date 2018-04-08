@@ -57,13 +57,14 @@
 		"wpackagist-plugin/wordfence",
 		"wpackagist-plugin/nginx-helper",
 		"wpackagist-plugin/sendgrid-email-delivery-simplified",
-		"humanmade/s3-uploads",
-"wpackagist-plugin/printful-shipping-for-woocommerce",
-		"wpackagist-plugin/woocommerce"
+		"humanmade/s3-uploads"
+
 	  ],
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/all-in-one-seo-pack",
-		"wpackagist-plugin/debug-bar"
+		"wpackagist-plugin/debug-bar",
+		"wpackagist-plugin/printful-shipping-for-woocommerce",
+		"wpackagist-plugin/woocommerce"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme"
