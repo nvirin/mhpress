@@ -63,9 +63,7 @@
 	  ],
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/all-in-one-seo-pack",
-		"wpackagist-plugin/debug-bar",
-		"wpackagist-plugin/printful-shipping-for-woocommerce",
-		"wpackagist-plugin/woocommerce"
+		"wpackagist-plugin/debug-bar"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme"
