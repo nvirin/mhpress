@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "796f36f9af360c937e3c1671c88c8f46",
-    "content-hash": "ef7f6a40b672d23735edcba72c9108d7",
+    "hash": "8ee041a05f0398ec53bdf815f63dd473",
+    "content-hash": "d560b21396dd1a3b112e2363afe741a6",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3690,6 +3690,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/mesmerize-companion",
+            "version": "1.3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mesmerize-companion/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mesmerize-companion.zip?timestamp=1522336154",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mesmerize-companion/"
         },
         {
             "name": "wpackagist-plugin/nginx-helper",
