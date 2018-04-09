@@ -42,7 +42,8 @@
 	"wpackagist-plugin/debug-bar": "0.9",
 "wpackagist-plugin/woocommerce": "3.3.4",
         "wpackagist-plugin/printful-shipping-for-woocommerce": "2.0.2",
-	  "wpackagist-theme/mesmerize": "1.2.1"
+        "wpackagist-theme/mesmerize": "1.2.1"
+
 
   },
   "require-dev": {
@@ -70,7 +71,7 @@
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme",
-		  "wpackagist-theme/mesmerize"
+ 		"wpackagist-theme/mesmerize"
 	  ]
 	},
 	"dropin-paths": {
